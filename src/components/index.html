@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            padding: 0;
+            background-color: gray;
+        }
+
+        section {
+            page-break-before: always;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 21cm;
+            height: 29.7cm;
+            background-color: white;
+        }
+
+        img {
+            max-width: 650px;
+            height: auto;
+            display: block;
+            margin: 40px;
+        }
+
+        br {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Page 1 -->
+
+    <section>
+
+        <h1>Main Information</h1>
+        <p>Date: {formData.date}</p>
+        <p>Time: {formData.time}</p>
+        <p>Address: {formData.address}</p>
+
+        <img src="main_image.jpg" alt="Main Image">
+    </section>
+
+    <!-- Page 2 -->
+    <section>
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+    </section>
+
+    <!-- Page 3 -->
+    <section>
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+    </section>
+
+    <!-- Page 4 -->
+    <section>
+        <img src="attendance_image_a.jpg" alt="Attendance Image A">
+    </section>
+
+    <!-- Page 5 -->
+    <section>
+        <img src="certificate_image.jpg" alt="Certificate Image">
+    </section>
+
+</body>
+
+</html>

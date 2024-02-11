@@ -1,0 +1,31 @@
+/* src/components/EventPreview.css */
+
+mupdf {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    padding: 0;
+    background-color: gray;
+  }
+  
+  section {
+    page-break-before: always;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+  }
+  
+  img {
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 40px auto; 
+  }
+  
+  
+  p{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
