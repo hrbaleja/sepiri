@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './EventPreview.css';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import { Button, Paper, Typography } from '@mui/material';
+import { Button, Paper, Typography,Grid } from '@mui/material';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import PrintIcon from '@mui/icons-material/Print';
 
@@ -39,7 +39,8 @@ const EventPreview = ({ formData }) => {
         newWindow.print();
     };
 
-    return (
+    return (    <Grid container spacing={2} justifyContent="center">
+
         <Paper elevation={3} style={{ marginTop: '20px', marginBottom: '20px', paddingBottom: '20px' }}>
             <div>
             <Typography variant="h5" gutterBottom textAlign={'center'} style={{marginLeft:'10px', marginTop:'10px'}}>          BSE Report Preview        </Typography>
@@ -126,7 +127,7 @@ const EventPreview = ({ formData }) => {
                 </div>
                 <hr></hr>
             </div>
-        </Paper>
+        </Paper></Grid>
     );
 };
 export default EventPreview;
