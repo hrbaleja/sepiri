@@ -39,9 +39,9 @@ const EventPreview = ({ formData }) => {
         newWindow.print();
     };
 
-    return (    <Grid container spacing={2} justifyContent="center">
+    return (    <Grid container spacing={2} justifyContent="center" style={{ marginTop: '20px', marginBottom: '20px', paddingBottom: '20px' }}>
 
-        <Paper elevation={3} style={{ marginTop: '20px', marginBottom: '20px', paddingBottom: '20px' }}>
+        <Paper elevation={3} >
             <div>
             <Typography variant="h5" gutterBottom textAlign={'center'} style={{marginLeft:'10px', marginTop:'10px'}}>          BSE Report Preview        </Typography>
 
