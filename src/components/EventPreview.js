@@ -73,7 +73,8 @@ const EventPreview = ({ formData }) => {
                                 alt="Banner 1"
                                 style={{ maxWidth: '650px', maxHeight: '50%', objectFit: 'contain' }}
                             />
-                        )}
+                        )}                        <br></br>
+
                         {formData.image2 && (
                             <img
                                 src={URL.createObjectURL(formData.image2)}
@@ -91,6 +92,7 @@ const EventPreview = ({ formData }) => {
                                 style={{ maxWidth: '650px', maxHeight: '50%', objectFit: 'contain' }}
                             />
                         )}
+                        <br></br>
                         {formData.image4 && (
                             <img
                                 src={URL.createObjectURL(formData.image4)}
